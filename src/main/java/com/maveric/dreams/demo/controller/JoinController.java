@@ -6,10 +6,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class JoinController {
 
-    @GetMapping("/")
+    @GetMapping("/index")
     public String test(){
-        return "test";
+        return "index";
     }
+
+
 
 
 }
